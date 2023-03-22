@@ -60,6 +60,12 @@ nav {
     border-radius: 100px;
     color: white;
     cursor: pointer;
+    transition: all 500ms;
+}
+
+#btnheader:hover {
+    transition: all 500ms;
+    padding: 12px 40px;
 }
 
 .header__main{
@@ -74,6 +80,13 @@ nav {
     padding: 16px;
     border-radius: 100px;
     display: inline-block;
+    transition: all 500ms;
+}
+
+.header__title-rank:hover {
+    background-color: rgba(251, 147, 51, 1);
+    color: rgba(255, 240, 220, 1);
+    transition: all 500ms;
 }
 
 .header__title_asli {
@@ -109,6 +122,12 @@ nav {
     cursor: pointer;
     margin-top: 30px;
     padding: 25px 45px;
+    transition: all 500ms;
+}
+
+.btn__title:hover {
+    transition: all 500ms;
+    transform: scale(1.1) ;
 }
 
 .header__numbers {
@@ -116,6 +135,16 @@ nav {
     gap: 50px;
     margin-top: 100px;
     font-family: poppinM;
+}
+
+.header__numbers > div {
+    transition: all 500ms;
+}
+
+.header__numbers > div:hover {
+    transform: scale(1.5);
+    transition: all 500ms;
+    color: #FB9333;
 }
 
 main {
@@ -192,6 +221,12 @@ main {
     text-align: center;
     gap: 10px;
     cursor: pointer;
+    transition: all 500ms;
+}
+
+.dis__learnmore:hover {
+    transition: all 500ms;
+    gap: 20px;
 }
 
 .menu__continer {

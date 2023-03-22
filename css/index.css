@@ -29,6 +29,11 @@ nav {
     cursor: pointer;
 }
 
+.nav__logo {
+    font-size: 24px;
+    font-family: poppinB;
+}
+
 #btnheader{
     padding: 12px 30px;
     background: #FB9333;
@@ -292,4 +297,33 @@ main {
     border-radius: 50px;
     border: none;
     padding: 0px 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 134px;
+    gap: 150px;
+}
+
+.informetion , .feature , .touch , .media {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.location , .email , .call {
+    display: flex;
+    gap:5px;
+}
+
+#logo {
+    font-family: poppinB;
+    font-size: 24px;
+}
+
+#god {
+    font-size: 24px;
+    font-family: poppinB;
 }

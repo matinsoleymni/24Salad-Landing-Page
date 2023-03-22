@@ -1,1 +1,93 @@
 @import url(./fonts.css);
+
+body , html {
+    width: 100%;
+    height: 100%;
+    font-family: poppinR;
+}
+
+header{
+    margin-top: 30px;
+    padding: 0px 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: center;
+    align-items: center;
+}
+
+.nav__item {
+    display: flex;
+    gap: 70px;
+}
+
+.nav__link {
+    cursor: pointer;
+}
+
+#btnheader{
+    padding: 12px 30px;
+    background: #FB9333;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.header__main{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.header__title-rank {
+    background-color:rgba(255, 240, 220, 1);
+    color: rgba(251, 147, 51, 1);
+    padding: 16px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.header__title_asli {
+    margin-top: 30px;
+}
+
+.header__title_asli h1 {
+    font-size: 72px;
+    font-family: poppinB;
+}
+
+.header__title_asli p {
+    margin-top: 30px;
+    color: rgba(130, 130, 130, 1) ;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+#header__span {
+    color: #FB9333;
+}
+
+.btn__title {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #FB9333;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 25px 45px;
+}
+
+.header__numbers {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    font-family: poppinM;
+}

@@ -168,3 +168,128 @@ main {
     gap: 10px;
     cursor: pointer;
 }
+
+.menu__continer {
+    margin-top: 150px;
+}
+
+.menu__title {
+    text-align: center;
+    padding: 0px 219px;
+}
+
+.menu__sub-title p {
+    font-size: 20px;
+    color: #FB9333;
+}
+
+.menu__main-title h3 {
+    font-size: 48px;
+    margin-top: 15px;
+}
+
+
+.menu__item {
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+}
+
+
+.item__dieat {
+    position: relative;
+    width: 363.33px;
+    height: 520px;
+}
+
+
+.dieat__title {
+    position: absolute;
+    z-index: 5;
+    bottom: 50px;
+    left: 65px;
+    color: white;
+}
+
+.one {
+    background-image: url(../images/main/eat1.png);
+}
+
+.two {
+    background-image: url(../images/main/eat2.png);
+}
+
+.three {
+    background-image: url(../images/main/eat3.png);
+}
+
+.dieat__title p {
+    font-size: 24px;
+}
+
+.dieat__title h5 {
+    font-family: poppinB;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #FB9333;
+}
+
+.subscribe {
+    margin-top: 150px;
+    margin-bottom: 150px;   
+}
+
+.subscribe__continer {
+    background-color: #FFF1DE;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 0px 100px;
+    background-image: url(../images/main/Group.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+.subscribe__title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0px 150px;
+}
+
+.subscribe__title h2 {
+    font-family: poppinB;
+    font-size: 48px;
+    color: rgba(88, 88, 88, 1);
+}
+
+#ptitles {
+    margin-top: 24px;
+    font-size: 16px;
+    color: rgba(87, 87, 87, 1);
+}
+
+.subscribe__newspaper {
+    margin: 50px 150px;
+    background-color: white;
+    border-radius: 35px;
+    padding: 15px;
+    display: flex;
+    gap:5px;
+}
+
+.subscribe__newspaper input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.subscribe__newspaper button {
+    background-color: #FB9333;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 0px 24px;
+}
